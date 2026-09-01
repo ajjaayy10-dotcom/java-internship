@@ -2,15 +2,6 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/*
- * WEEK 4 CAPSTONE PROJECT - Option 3
- * Hotel Booking Management System
- * ---------------------------------------------
- * Features: Add/Cancel bookings, calculate total cost.
- * Data stored using ArrayList in memory, persisted to a local file
- * (bookings.txt) so records survive between runs.
- */
-
 // ---------- MODEL ----------
 class Booking {
     int bookingId;
